@@ -29,6 +29,7 @@
 ## 目录
 
 **第一个阶段：基本配置**
+
 [![License: CC BY-ND 4.0](https://img.shields.io/badge/已完成-100%25-brightgreen.svg)](https://creativecommons.org/licenses/by-nd/4.0/legalcode)
 
 * Lesson 1 - [webpack简介](http://huziketang.com/books/react/lesson1)
