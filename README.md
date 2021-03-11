@@ -14,17 +14,15 @@
 
 本书并不会文档式地包含所有知识点，只会提炼实战经验中基础的、重要的、频繁的知识进行重点讲解，让你能用最少的精力深入了解实战中最需要的 webpack 知识和套路，轻装上路。如果需要更多更全面的知识点，可以参看更多的官方文档或者其他丰富的资料。
 
-**另外，本书全书代码的编写需要借助CommonJS规范和Node相关模块的使用，阅读之前请确保自己已经掌握了CommonJS规范和Node相关模块的使用，否则阅读起来会非常困难。**
-
 本书初定分为四个阶段，按照先易后难，先理论再实战的顺序进行讲解，务必使得大家在学习中循序渐进，理论和实践相结合。
 
 **第一个阶段**：简介 webpack 的基本概念和基础配置，通过这些基础配置完成简单的样式打包、js打包和资源打包。
 
-**第二个阶段**：进一步了解 webpack中的loader和plugins的运行机制，以及webpack打包分析及打包优先的相关技巧。
+**第二个阶段**：深入了解webpack中的进阶知识，更好的完成项目的中打包优化。
 
 **第三个阶段**：实例搭建react开发环境、vue开发环境以及typescript开发环境。
 
-**第四个阶段**：深入剖析webpack源码，理解AST抽象语法树、tapable钩子的使用，完成一个简易版本的webpack打包工具。
+**第四个阶段**：剖析webpack源码，理解AST抽象语法树、tapable钩子的使用，完成一个简易版本的webpack打包工具。
 
 ## 目录
 
@@ -72,21 +70,19 @@
 
 [![License: CC BY-ND 4.0](https://img.shields.io/badge/已完成-100%25-brightgreen.svg)](https://creativecommons.org/licenses/by-nd/4.0/legalcode)
 
-* Lesson 20 - [tapable简介](http://huziketang.com/books/react/lesson28)
-* Lesson 21 - [webpack中的钩子](http://huziketang.com/books/react/lesson29)
-* Lesson 22 - [AST抽象语法树](http://huziketang.com/books/react/lesson30)
-* Lesson 23 - [手写webpack之](http://huziketang.com/books/react/lesson31)
-* Lesson 24 - [手写webpack之](http://huziketang.com/books/react/lesson32)
-* Lesson 25 - [手写webpack之](http://huziketang.com/books/react/lesson33)
-* Lesson 26 - [手写webpack之](http://huziketang.com/books/react/lesson34)
-* Lesson 27 - [手写loader之](http://huziketang.com/books/react/lesson35)
-* Lesson 28 - [手写loader之](http://huziketang.com/books/react/lesson36)
-* Lesson 29 - [手写plugin之](http://huziketang.com/books/react/lesson37)
-* Lesson 30 - [手写plugin之](http://huziketang.com/books/react/lesson38)
+* Lesson 27 - [tapable简介](http://huziketang.com/books/react/lesson28)
+* Lesson 28 - [webpack中的钩子](http://huziketang.com/books/react/lesson29)
+* Lesson 29 - [AST抽象语法树](http://huziketang.com/books/react/lesson30)
+* Lesson 30 - [手写webpack之](http://huziketang.com/books/react/lesson31)
+* Lesson 31 - [手写webpack之](http://huziketang.com/books/react/lesson32)
+* Lesson 32 - [手写webpack之](http://huziketang.com/books/react/lesson33)
+* Lesson 33 - [手写webpack之](http://huziketang.com/books/react/lesson34)
+* Lesson 34 - [手写loader之](http://huziketang.com/books/react/lesson35)
+* Lesson 35 - [手写loader之](http://huziketang.com/books/react/lesson36)
+* Lesson 36 - [手写plugin之](http://huziketang.com/books/react/lesson37)
+* Lesson 37 - [手写plugin之](http://huziketang.com/books/react/lesson38)
 
-* http://huziketang.com/books/react/lesson32)
 
-  
 
-  
+
 
