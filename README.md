@@ -22,9 +22,9 @@
 
 **第二个阶段**：进一步了解 webpack中的loader和plugins的运行机制，以及webpack打包分析及打包优先的相关技巧。
 
-**第三个阶段**：深入剖析webpack源码，理解AST抽象语法树、tapable钩子的使用，完成一个简易版本的webpack打包工具。
+**第三个阶段**：实例搭建react开发环境、vue开发环境以及typescript开发环境。
 
-**第四个阶段**：实例搭建react开发环境、vue开发环境以及typescript开发环境。
+**第四个阶段**：深入剖析webpack源码，理解AST抽象语法树、tapable钩子的使用，完成一个简易版本的webpack打包工具。
 
 ## 目录
 
@@ -36,28 +36,39 @@
 * Lesson 2 - [配置文件](http://huziketang.com/books/react/lesson2)
 * Lesson 3 - [entry和output](http://huziketang.com/books/react/lesson3)
 * Lesson 4 - [打包模式](http://huziketang.com/books/react/lesson4)
-* Lesson 5 - [loader的使用](http://huziketang.com/books/react/lesson5)
-* Lesson 6 - [hmr模块热更新](http://huziketang.com/books/react/lesson6)
-* Lesson 7 - [plugin的使用](http://huziketang.com/books/react/lesson6)
-* Lesson 8 - [devServer搭建本地开发环境](http://huziketang.com/books/react/lesson7)
-* Lesson 9 - [区分生成环境和开发环境](http://huziketang.com/books/react/lesson8)
-* Lesson 10 - [webpack中的命令行](http://huziketang.com/books/react/lesson8)
+* Lesson 5 - [webpack之模块](http://huziketang.com/books/react/lesson5)
+* Lesson 6 - [webpack之plugin](http://huziketang.com/books/react/lesson6)
+* Lesson 7 - [devServer搭建本地开发环境](http://huziketang.com/books/react/lesson7)
+* Lesson 8 - [环境区分](http://huziketang.com/books/react/lesson8)
+* Lesson 9 - [webpack中的其他配置](http://huziketang.com/books/react/lesson8)
+* Lesson 10 - [打包分析](http://huziketang.com/books/react/lesson8)
 
-**第二个阶段：运行机制和打包优化**
+**第二个阶段：打包优化**
 
 [![License: CC BY-ND 4.0](https://img.shields.io/badge/已完成-100%25-brightgreen.svg)](https://creativecommons.org/licenses/by-nd/4.0/legalcode)
 
-* Lesson 11 - [loader的实质](http://huziketang.com/books/react/lesson17)
-* Lesson 12 - [plugin的运行机制](http://huziketang.com/books/react/lesson18)
-* Lesson 13 - [打包分析](http://huziketang.com/books/react/lesson19)
-* Lesson 14 - [打包优化之tree shaking](http://huziketang.com/books/react/lesson20)
-* Lesson 15 - [打包优化之代码分割](http://huziketang.com/books/react/lesson21)
-* Lesson 16 - [打包优化之懒加载](http://huziketang.com/books/react/lesson22)
-* Lesson 17 - [打包优化之happpack](http://huziketang.com/books/react/lesson23)
-* Lesson 18 - [打包优化之DllPlugin的使用](http://huziketang.com/books/react/lesson24)
-* Lesson 19 - [打包优化之externals排除第三方依赖](http://huziketang.com/books/react/lesson25)
+* Lesson 11 - [打包优化之体积优化](http://huziketang.com/books/react/lesson17)
+* Lesson 12 - [打包优化之增强缓存命中率](http://huziketang.com/books/react/lesson18)
+* Lesson 13 - [打包优化之速度优化](http://huziketang.com/books/react/lesson19)
+* Lesson 14 - [打包优化之Tree-Shaking](http://huziketang.com/books/react/lesson8)
+* Lesson 15 - [打包优化之splitChunks](http://huziketang.com/books/react/lesson20)
+* Lesson 16 - [打包优化之代码分割](http://huziketang.com/books/react/lesson21)
+* Lesson 17 - [打包优化之懒加载](http://huziketang.com/books/react/lesson22)
+* Lesson 18 - [打包优化之happpack](http://huziketang.com/books/react/lesson23)
+* Lesson 19 - [打包优化之DllPlugin的使用](http://huziketang.com/books/react/lesson24)
+* Lesson 20 - [打包优化之externals排除第三方依赖](http://huziketang.com/books/react/lesson25)
 
-**第三个阶段：内核解析**
+**第三个阶段：打包实战**
+
+- Lesson 21 - [配置多页面打包](http://huziketang.com/books/react/lesson17)
+- Lesson 22 - [公共类库的打包](http://huziketang.com/books/react/lesson17)
+- Lesson 23 -  [typescript的开发配置](http://huziketang.com/books/react/lesson17)
+- Lesson 23 - [配置react开发环境](http://huziketang.com/books/react/lesson17)
+- Lesson 24 - [配置vue开发环境](http://huziketang.com/books/react/lesson17)
+- Lesson 25 - [配置angular开发环境](http://huziketang.com/books/react/lesson17)
+- Lesson 26 - [配置移动端适配方案](http://huziketang.com/books/react/lesson17)
+
+**第四个阶段：内核解析**
 
 [![License: CC BY-ND 4.0](https://img.shields.io/badge/已完成-100%25-brightgreen.svg)](https://creativecommons.org/licenses/by-nd/4.0/legalcode)
 
@@ -73,19 +84,7 @@
 * Lesson 29 - [手写plugin之](http://huziketang.com/books/react/lesson37)
 * Lesson 30 - [手写plugin之](http://huziketang.com/books/react/lesson38)
 
-**第四个阶段：实例演练**
-
-[![License: CC BY-ND 4.0](https://img.shields.io/badge/已完成-100%25-brightgreen.svg)](https://creativecommons.org/licenses/by-nd/4.0/legalcode)
-
-* Lesson 31 - [多页面应用的打包](http://huziketang.com/books/react/lesson28)
-
-* Lesson 32 - [react开发环境的搭建](http://huziketang.com/books/react/lesson29)
-
-* Lesson 33 - [vue开发环境的搭建](http://huziketang.com/books/react/lesson30)
-
-* Lesson 34 - [typescript应用开发环境搭建](http://huziketang.com/books/react/lesson31)
-
-* Lesson 35 - [公共类库的打包](http://huziketang.com/books/react/lesson32)
+* http://huziketang.com/books/react/lesson32)
 
   
 
